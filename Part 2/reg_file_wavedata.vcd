@@ -1,0 +1,157 @@
+$date
+	Wed Jan 12 09:21:00 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module reg_file_tb $end
+$var wire 8 ! REGOUT2 [7:0] $end
+$var wire 8 " REGOUT1 [7:0] $end
+$var reg 1 # CLK $end
+$var reg 3 $ READREG1 [2:0] $end
+$var reg 3 % READREG2 [2:0] $end
+$var reg 1 & RESET $end
+$var reg 8 ' WRITEDATA [7:0] $end
+$var reg 1 ( WRITEENABLE $end
+$var reg 3 ) WRITEREG [2:0] $end
+$scope module myregfile $end
+$var wire 1 # CLK $end
+$var wire 8 * IN [7:0] $end
+$var wire 3 + INADDRESS [2:0] $end
+$var wire 3 , OUT1ADDRESS [2:0] $end
+$var wire 3 - OUT2ADDRESS [2:0] $end
+$var wire 1 & RESET $end
+$var wire 1 ( WRITE $end
+$var reg 8 . OUT1 [7:0] $end
+$var reg 8 / OUT2 [7:0] $end
+$var integer 32 0 i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 0
+bx /
+bx .
+bx -
+bx ,
+bx +
+bx *
+bx )
+0(
+bx '
+0&
+bx %
+bx $
+1#
+bx "
+bx !
+$end
+#4
+0#
+b100 %
+b100 -
+b0 $
+b0 ,
+1&
+#8
+1#
+#9
+b1000 0
+#10
+0&
+#11
+b0 !
+b0 /
+b0 "
+b0 .
+#12
+1(
+b1011111 '
+b1011111 *
+b10 )
+b10 +
+0#
+#16
+1#
+#19
+0(
+#20
+b10 $
+b10 ,
+0#
+#22
+b1011111 "
+b1011111 .
+#24
+1#
+#27
+b1 $
+b1 ,
+1(
+b11100 '
+b11100 *
+b1 )
+b1 +
+#28
+0#
+#29
+b0 "
+b0 .
+#32
+1#
+#35
+b11100 "
+b11100 .
+0(
+#36
+0#
+#40
+1#
+#43
+1(
+b110 '
+b110 *
+b100 )
+b100 +
+#44
+0#
+#48
+1#
+#51
+b110 !
+b110 /
+b1111 '
+b1111 *
+#52
+0#
+#56
+1#
+#59
+b1111 !
+b1111 /
+#60
+0#
+#61
+0(
+#64
+1#
+#67
+1(
+b110010 '
+b110010 *
+b111 )
+b111 +
+#68
+0#
+#72
+1#
+0(
+#76
+0#
+#80
+1#
+#82
