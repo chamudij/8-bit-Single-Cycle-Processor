@@ -1,0 +1,188 @@
+$date
+	Tue Jan 11 22:36:19 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbed $end
+$var wire 8 ! ALURESULT [7:0] $end
+$var reg 3 " ALUOP [2:0] $end
+$var reg 8 # OPERAND1 [7:0] $end
+$var reg 8 $ OPERAND2 [7:0] $end
+$scope module a1 $end
+$var wire 8 % DATA1 [7:0] $end
+$var wire 8 & DATA2 [7:0] $end
+$var wire 3 ' SELECT [2:0] $end
+$var wire 8 ( OR_RESULT [7:0] $end
+$var wire 8 ) FORWARD_RESULT [7:0] $end
+$var wire 8 * AND_RESULT [7:0] $end
+$var wire 8 + ADD_RESULT [7:0] $end
+$var reg 8 , RESULT [7:0] $end
+$scope module myadd $end
+$var wire 8 - IN1 [7:0] $end
+$var wire 8 . IN2 [7:0] $end
+$var wire 8 / OUT [7:0] $end
+$upscope $end
+$scope module myand $end
+$var wire 8 0 IN1 [7:0] $end
+$var wire 8 1 IN2 [7:0] $end
+$var wire 8 2 OUT [7:0] $end
+$upscope $end
+$scope module myforward $end
+$var wire 8 3 IN [7:0] $end
+$var wire 8 4 OUT [7:0] $end
+$upscope $end
+$scope module myor $end
+$var wire 8 5 IN1 [7:0] $end
+$var wire 8 6 IN2 [7:0] $end
+$var wire 8 7 OUT [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 7
+b10100 6
+b1100100 5
+bx 4
+b10100 3
+bx 2
+b10100 1
+b1100100 0
+bx /
+b10100 .
+b1100100 -
+bx ,
+bx +
+bx *
+bx )
+bx (
+b0 '
+b10100 &
+b1100100 %
+b10100 $
+b1100100 #
+b0 "
+bx !
+$end
+#1
+b10100 !
+b10100 ,
+b1110100 (
+b1110100 7
+b100 *
+b100 2
+b10100 )
+b10100 4
+#2
+b1111000 +
+b1111000 /
+#5
+b1111000 !
+b1111000 ,
+b1 "
+b1 '
+b1010 $
+b1010 &
+b1010 .
+b1010 1
+b1010 3
+b1010 6
+b1011111 #
+b1011111 %
+b1011111 -
+b1011111 0
+b1011111 5
+#6
+b1010 *
+b1010 2
+b1011111 (
+b1011111 7
+b1010 )
+b1010 4
+#7
+b1101001 !
+b1101001 ,
+b1101001 +
+b1101001 /
+#10
+b10000000 $
+b10000000 &
+b10000000 .
+b10000000 1
+b10000000 3
+b10000000 6
+b1101110 #
+b1101110 %
+b1101110 -
+b1101110 0
+b1101110 5
+#11
+b0 *
+b0 2
+b11101110 (
+b11101110 7
+b10000000 )
+b10000000 4
+#12
+b11101110 !
+b11101110 ,
+b11101110 +
+b11101110 /
+#15
+b0 !
+b0 ,
+b10 "
+b10 '
+b100 $
+b100 &
+b100 .
+b100 1
+b100 3
+b100 6
+b100 #
+b100 %
+b100 -
+b100 0
+b100 5
+#16
+b100 !
+b100 ,
+b100 *
+b100 2
+b100 (
+b100 7
+b100 )
+b100 4
+#17
+b1000 +
+b1000 /
+#20
+b11 "
+b11 '
+b110 $
+b110 &
+b110 .
+b110 1
+b110 3
+b110 6
+b101 #
+b101 %
+b101 -
+b101 0
+b101 5
+#21
+b111 !
+b111 ,
+b111 (
+b111 7
+b110 )
+b110 4
+#22
+b1011 +
+b1011 /
+#25
